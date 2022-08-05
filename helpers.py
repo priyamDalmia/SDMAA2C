@@ -17,8 +17,8 @@ def build_env():
 
 
 def time_function(*args):
-    time_start = time.pref_counter()
-    time_end = time.pref_counter()
+    time_start = time.perf_counter()
+    time_end = time.perf_counter()
     return time_end - time_start
 
 
